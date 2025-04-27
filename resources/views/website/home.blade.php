@@ -26,7 +26,7 @@
 
             <!-- Get Started -->
             <div>
-                <a href="#" class="px-4 py-2 bg-primary rounded-md text-xl text-white transition duration-200 hover:bg-secondary hover:text-dark">
+                <a href="{{ route('auth.signIn') }}" class="px-4 py-2 bg-primary rounded-md text-xl text-white transition duration-200 hover:bg-secondary hover:text-dark">
                     Get Started
                 </a>
             </div>

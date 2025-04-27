@@ -34,7 +34,7 @@
                     <input type="checkbox" name="newsletter" style="accent-color: white;" required>
                     <p class="text-white">
                         I read and accept the 
-                        <a href="#" target="_blank" class="text-secondary underline">
+                        <a href="{{ route('termsOfUse') }}" target="_blank" class="text-secondary underline">
                             terms of use
                         </a> 
                         of Tick It.

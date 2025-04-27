@@ -6,7 +6,7 @@
             <!-- Left -->
             <div class="flex flex-col space-y-6">
                 <!-- Logo -->
-                <a href="#" class="w-fit flex items-center space-x-2">
+                <a href="{{ route('home') }}" class="w-fit flex items-center space-x-2">
                     <img src="{{ asset('assets/icons/favicon.png') }}" alt="Tick It Logo">
                     <span class="text-2xl text-primary">Tick It</span>
                 </a>
@@ -28,17 +28,17 @@
                             </span>
                         </li>
                         <li>
-                            <a href="#" class="transition duration-200 hover:underline">
+                            <a href="{{ route('features') }}" class="transition duration-200 hover:underline">
                                 Features
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="transition duration-200 hover:underline">
+                            <a href="{{ route('helpCenter') }}" class="transition duration-200 hover:underline">
                                 Help Center
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="transition duration-200 hover:underline">
+                            <a href="{{ route('auth.signIn') }}" class="transition duration-200 hover:underline">
                                 Get Started
                             </a>
                         </li>
@@ -54,17 +54,17 @@
                             </span>
                         </li>
                         <li>
-                            <a href="#" class="transition duration-200 hover:underline">
+                            <a href="{{ route('blog.index') }}" class="transition duration-200 hover:underline">
                                 Blog
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="transition duration-200 hover:underline">
+                            <a href="{{ route('about') }}" class="transition duration-200 hover:underline">
                                 About
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="transition duration-200 hover:underline">
+                            <a href="{{ route('contact') }}" class="transition duration-200 hover:underline">
                                 Contact
                             </a>
                         </li>
@@ -80,17 +80,17 @@
                             </span>
                         </li>
                         <li>
-                            <a href="#" class="transition duration-200 hover:underline">
+                            <a href="{{ route('termsOfUse') }}" class="transition duration-200 hover:underline">
                                 Terms of Use
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="transition duration-200 hover:underline">
+                            <a href="{{ route('cookiePolicy') }}" class="transition duration-200 hover:underline">
                                 Cookie Policy
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="transition duration-200 hover:underline">
+                            <a href="{{ route('privacyPolicy') }}" class="transition duration-200 hover:underline">
                                 Privacy Policy
                             </a>
                         </li>

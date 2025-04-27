@@ -8,12 +8,12 @@
                 <!-- Logo -->
                 <a href="#" class="w-fit flex items-center space-x-2">
                     <img src="{{ asset('assets/icons/favicon.png') }}" alt="Tick It Logo">
-                    <span class="font-bold text-xl text-primary">Tick It</span>
+                    <span class="text-2xl text-primary">Tick It</span>
                 </a>
 
                 <!-- Description -->
-                <p class="w-[58%]">
-                    Organize your tasks, plan your day and manage your team.
+                <p class="w-[55%]">
+                    Create tasks, assign tasks to users, organize users with teams.
                 </p>
             </div>
 
@@ -105,8 +105,18 @@
             <div>
                 <p>
                     &copy; 2025 
-                    <span class="font-semibold text-primary">Tick It</span>. 
+                    <span class="text-primary">Tick It</span>. 
                     All rights reserved.
+                </p>
+            </div>
+
+            <!-- Developer -->
+            <div>
+                <p>
+                    Developed by
+                    <a href="https://github.com/mertbag96" target="_blank" class="transition duration-200 hover:text-primary">
+                        Mert Bağ
+                    </a>
                 </p>
             </div>
         </div> 

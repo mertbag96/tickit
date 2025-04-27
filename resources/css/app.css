@@ -6,6 +6,8 @@
     --color-dark: #333333;
     --color-primary: #4772FA;
     --color-secondary: #FFB000;
+    --color-success: #06CE90;
+    --color-danger: #FF3180;
 }
 
 @source "../views";

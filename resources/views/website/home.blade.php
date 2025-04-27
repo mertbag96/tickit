@@ -37,4 +37,7 @@
             <img src="{{ asset('assets/images/home/hero.png') }}" alt="Tick It">
         </div>
     </section>
+
+    <!-- Newsletter -->
+    @include('website.layout.newsletter')
 @endsection

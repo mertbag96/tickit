@@ -5,7 +5,7 @@
         <!-- Logo -->
         <a href="#" class="flex items-center space-x-2">
             <img src="{{ asset('assets/icons/favicon.png') }}" alt="Tick It Logo">
-            <span class="font-bold text-xl text-primary">Tick It</span>
+            <span class="text-2xl text-primary">Tick It</span>
         </a>
 
         <!-- Menu -->
